@@ -1,8 +1,5 @@
 package by.users.yemialyanava.firstexample.dto;
 
-import by.users.yemialyanava.firstexample.models.Account;
-import by.users.yemialyanava.firstexample.models.EmailData;
-import by.users.yemialyanava.firstexample.models.PhoneData;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
 
