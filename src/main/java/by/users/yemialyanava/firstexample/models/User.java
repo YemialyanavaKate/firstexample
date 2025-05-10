@@ -12,12 +12,13 @@ import java.util.List;
 @NoArgsConstructor
 @Getter
 @Setter
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private LocalDate date_of_birth;
+    private LocalDate dateOfBirth;
     private String password;
     @OneToOne
     private Account account;
